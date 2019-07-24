@@ -6,4 +6,9 @@ class Person{
     constructor(name:string){
         this.name=name;
     }
+
+    sayHello(msg:string):void{
+        console.log(msg);
+        
+    }
 }
